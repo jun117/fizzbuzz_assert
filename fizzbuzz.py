@@ -4,8 +4,8 @@ def fizzbuzz_convert(number):
     return number
 
 
-assert fizzbuzz_convert(1) == '1'
-assert fizzbuzz_convert(2) == '2'
+assert fizzbuzz_convert(1) == 1
+assert fizzbuzz_convert(2) == 2
 assert fizzbuzz_convert(3) == 'Fizz'
 assert fizzbuzz_convert(6) == 'Fizz'
 assert fizzbuzz_convert(5) == 'Buzz'
